@@ -16,11 +16,9 @@
 		F21D85481E70D3CA00C16587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21D85471E70D3CA00C16587 /* Assets.xcassets */; };
 		F21D854B1E70D3CA00C16587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21D85491E70D3CA00C16587 /* LaunchScreen.storyboard */; };
 		F21D85561E70D3CA00C16587 /* TabTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D85551E70D3CA00C16587 /* TabTestingUITests.swift */; };
-		F279A4C71E93FAA1009E25E2 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F279A4C61E93FAA1009E25E2 /* TextInputTableViewCell.swift */; };
 		F27EDD831E81CCD4000EDCCB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EDD821E81CCD4000EDCCB /* ThirdViewController.swift */; };
 		F27EDD851E81CD3C000EDCCB /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EDD841E81CD3C000EDCCB /* FourthViewController.swift */; };
 		F2C5F3951E834692007CBDFA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F3941E834692007CBDFA /* CustomCell.swift */; };
-		F2CD38661E995E2E00620533 /* FeedbackTypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CD38651E995E2E00620533 /* FeedbackTypesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +49,9 @@
 		F21D85511E70D3CA00C16587 /* TabTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21D85551E70D3CA00C16587 /* TabTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTestingUITests.swift; sourceTree = "<group>"; };
 		F21D85571E70D3CA00C16587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F279A4C61E93FAA1009E25E2 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
 		F27EDD821E81CCD4000EDCCB /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
 		F27EDD841E81CD3C000EDCCB /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		F2C5F3941E834692007CBDFA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		F2CD38651E995E2E00620533 /* FeedbackTypesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackTypesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				F21D85401E70D3CA00C16587 /* FirstViewController.swift */,
-				F279A4C61E93FAA1009E25E2 /* TextInputTableViewCell.swift */,
-				F2CD38651E995E2E00620533 /* FeedbackTypesTableViewCell.swift */,
 				F21D85421E70D3CA00C16587 /* SecondViewController.swift */,
 				F2C5F3941E834692007CBDFA /* CustomCell.swift */,
 				F27EDD821E81CCD4000EDCCB /* ThirdViewController.swift */,
@@ -350,11 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2CD38661E995E2E00620533 /* FeedbackTypesTableViewCell.swift in Sources */,
 				F21D85431E70D3CA00C16587 /* SecondViewController.swift in Sources */,
 				F21D853F1E70D3CA00C16587 /* AppDelegate.swift in Sources */,
 				F27EDD831E81CCD4000EDCCB /* ThirdViewController.swift in Sources */,
-				F279A4C71E93FAA1009E25E2 /* TextInputTableViewCell.swift in Sources */,
 				F21D85411E70D3CA00C16587 /* FirstViewController.swift in Sources */,
 				F2C5F3951E834692007CBDFA /* CustomCell.swift in Sources */,
 				F27EDD851E81CD3C000EDCCB /* FourthViewController.swift in Sources */,
