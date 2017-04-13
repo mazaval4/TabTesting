@@ -66,7 +66,7 @@ class CustomCell: UITableViewCell, PTDBeanManagerDelegate, PTDBeanDelegate  {
         }
         
         print("Found a Bean: \(bean.name)")
-        if bean.name == "Bean update image" {
+        if bean.name == "Ariannas back off" {
             yourBean = bean
             print("got your bean")
             connectToBean(bean: yourBean!)
