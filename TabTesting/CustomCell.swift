@@ -17,7 +17,11 @@ class CustomCell: UITableViewCell, PTDBeanManagerDelegate, PTDBeanDelegate  {
     var beanManager: PTDBeanManager?
     var yourBean: PTDBean?
     var lightState: Bool = false
+<<<<<<< HEAD
     var buttonDelegate: ButtonCellDelegate?
+=======
+    // var buttonDelegate: ButtonCellDelegate?
+>>>>>>> origin/newBranch
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -90,6 +94,7 @@ class CustomCell: UITableViewCell, PTDBeanManagerDelegate, PTDBeanDelegate  {
         bluetoothTextLabel.text = "Bluetooth is \(onOffText)"
     }
     
+<<<<<<< HEAD
     @IBAction func bluetoothButton(_ sender: AnyObject) {
     lightState = !lightState
     updateLedStatusText(lightState: lightState)
@@ -99,5 +104,16 @@ class CustomCell: UITableViewCell, PTDBeanManagerDelegate, PTDBeanDelegate  {
             delegate.cellTapped(cell: self)
         }
        }
+=======
+   // @IBAction func bluetoothButton(_ sender: AnyObject) {
+   // lightState = !lightState
+   // updateLedStatusText(lightState: lightState)
+   // let data = NSData(bytes: &lightState, length: MemoryLayout<Bool>.size)
+   // sendSerialData(beanState: data)
+   //     if let delegate = buttonDelegate {
+   //         delegate.cellTapped(cell: self)
+   //     }
+   //    }
+>>>>>>> origin/newBranch
 
 }

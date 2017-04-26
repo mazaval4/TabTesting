@@ -196,7 +196,11 @@
 				TargetAttributes = {
 					F21D853A1E70D3CA00C16587 = {
 						CreatedOnToolsVersion = 8.2.1;
+<<<<<<< HEAD
 						DevelopmentTeam = BK265TY4RG;
+=======
+						DevelopmentTeam = 6BPUBF38X5;
+>>>>>>> origin/newBranch
 						ProvisioningStyle = Automatic;
 					};
 					F21D85501E70D3CA00C16587 = {
@@ -487,10 +491,17 @@
 			baseConfigurationReference = 8BA0AFE3CE1ABD58D238369A /* Pods-TabTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = BK265TY4RG;
 				INFOPLIST_FILE = TabTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.armoren4.TabTesting;
+=======
+				DEVELOPMENT_TEAM = 6BPUBF38X5;
+				INFOPLIST_FILE = TabTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joequezada;
+>>>>>>> origin/newBranch
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -502,10 +513,17 @@
 			baseConfigurationReference = C9D6AC35A7A3CFE39FF0A42F /* Pods-TabTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = BK265TY4RG;
 				INFOPLIST_FILE = TabTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.armoren4.TabTesting;
+=======
+				DEVELOPMENT_TEAM = 6BPUBF38X5;
+				INFOPLIST_FILE = TabTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joequezada;
+>>>>>>> origin/newBranch
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;

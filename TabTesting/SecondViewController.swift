@@ -9,6 +9,7 @@
 import UIKit
 import Bean_iOS_OSX_SDK
 
+<<<<<<< HEAD
 protocol ButtonCellDelegate {
     func cellTapped(cell: CustomCell)
 }
@@ -20,10 +21,22 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableView: UITableView!
     
     var beanManager: PTDBeanManager?
+=======
+// protocol ButtonCellDelegate {
+// func cellTapped(cell: CustomCell)
+// }
+
+class SecondViewController: UIViewController {
+    
+    var Array = [Int] ()
+    @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var Label2: UILabel!
+>>>>>>> origin/newBranch
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+<<<<<<< HEAD
         setupNavigationBarItems()
         tableView.delegate = self
         tableView.dataSource = self
@@ -69,3 +82,41 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
 
 }
+=======
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+    
+    @IBAction func RandomNumber(_ sender: Any) {
+        
+        let RandomNumberGen = arc4random_uniform(30) + 15  // (max value) + min value
+        Label.text = String(RandomNumberGen)
+        self.RandomOutput()
+    }
+    
+    
+    func RandomOutput () {
+        
+        // function that converts string to integer
+        let number:Int! = Int(Label.text!)
+        
+        if number <= 20
+        {
+            Label2.text = "Too short"
+        }
+            
+        else
+        {
+            Label2.text = "Good step"
+        }
+        
+    }
+}
+
+
+>>>>>>> origin/newBranch
